@@ -2,24 +2,26 @@
 
 function happyHolidays() 
 {
-  return "Happy holidays!";
+  return "Happy holidays!"
 }
 
 function happyHolidaysTo(name) 
 {
   name = 'you';
-  return 'Happy holidays, ${name}!';
+  return 'Happy holidays, ${name}!'
 }
 
 function happyHolidayTo(holiday, name) 
 {
-  return 'Happy ${holiday}, ${name}!';
+  var name = 'you'
+  var holiday = "Independence Day"
+  return 'Happy ${holiday}, ${name}!'
 }
 
 function holidayCountdown(holiday, days)
 {
-  var 
+  var holiday = "Mother's Day"
   var days = 20
-  return 'It\'s ${days} days until ${holiday}!';
+  return 'It\'s ${days} days until ${holiday}!'
 }
 
