@@ -18,6 +18,8 @@ function happyHolidayTo(holiday, name)
 
 function holidayCountdown(holiday, days)
 {
+  var 
+  var days = 20
   return 'It\'s ${days} days until ${holiday}!';
 }
 
